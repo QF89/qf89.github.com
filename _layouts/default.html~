@@ -32,7 +32,7 @@ var WRInitTime=(new Date()).getTime();
 <div class="site">
   <div class="title">
     <!-- <a href="/">个人介绍</a> -->
-    <a class="extra" href="/">Blog Archive</a>
+    <a class="extra" href="/">博客列表</a>
   </div>
   
   {{ content }}
