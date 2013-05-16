@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>{{ page.title }}</title>
+   <meta name="author" content="qf89" />
+   <link href="http://feeds.feedburner.com/tom-preston-werner" rel="alternate" title="Tom Preston-Werner" type="application/atom+xml" />
+   <meta name="readability-verification" content="QCzSs992GxmRYRKVpPeZ6LE2tS8aYKxsSSQKV8YM"/>
+
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+
+   <link rel="stylesheet" href="/css/tablet.css" type="text/css" media="screen and (min-width:651px) and (max-width: 1024px), screen and (min-device-width: 768px) and (max-device-width: 1024px)" />
+
+   <link rel="stylesheet" href="/css/mobile.css" type="text/css" media="handheld, screen and (max-width: 650px), screen and (max-device-width: 480px)" />
+
+   <!-- Typekit -->
+   <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+
+<!-- ClickTale Top part -->
+<script type="text/javascript">
+var WRInitTime=(new Date()).getTime();
+</script>
+<!-- ClickTale end of Top part -->
+
+<div class="site">
+  <div class="title">
+    <a href="/">QF89</a>
+    <a class="extra" href="/">首页</a>
+  </div>
+  
+  {{ content }}
+  
+  <div class="footer">
+    <div class="contact">
+      <p>
+        qf89<br />
+        student from NJU<br />
+        qufei89@gmail.com
+      </p>
+    </div>
+    <div class="contact">
+      <p>
+        <a href="http://github.com/QF89/">github.com/qf89</a><br />
+        <a href="http://twitter.com/mojombo/">twitter.com/mojombo</a><br />
+        <a href="http://flickr.com/photos/mojombo/">flickr.com/photos/mojombo</a>
+      </p>
+    </div>
+    <!<div class="rss">>
+    <!  <a href="http://feeds.feedburner.com/tom-preston-werner">>
+    <!    <img src="/images/rss.png" alt="Subscribe to RSS Feed" />>
+    <!  </a>>
+    </div>
+  </div>
+</div>
+
+
+<!-- ClickTale Bottom part -->
+
+<!-- ClickTale end of Bottom part -->
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+</body>
+</html>
