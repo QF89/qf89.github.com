@@ -31,8 +31,8 @@ var WRInitTime=(new Date()).getTime();
 
 <div class="site">
   <div class="title">
-    <a href="/">QF89</a>
-    <a class="extra" href="/">首页</a>
+    <!<a href="/">QF89</a>>
+    <a class="extra" href="/">Blog Archive</a>
   </div>
   
   {{ content }}
@@ -41,22 +41,22 @@ var WRInitTime=(new Date()).getTime();
     <div class="contact">
       <p>
         qf89<br />
-        student from NJU<br />
+        a student from NJU<br />
         qufei89@gmail.com
       </p>
     </div>
     <div class="contact">
       <p>
         <a href="http://github.com/QF89/">github.com/qf89</a><br />
-        <a href="http://twitter.com/mojombo/">twitter.com/mojombo</a><br />
-        <a href="http://flickr.com/photos/mojombo/">flickr.com/photos/mojombo</a>
+        <a href="http://www.nju.edu.cn/">南京大学</a><br />
+        <a href="http://bbs.nju.edu.cn">小百合论坛</a>
       </p>
-    </div>
+    <!</div>>
     <!<div class="rss">>
     <!  <a href="http://feeds.feedburner.com/tom-preston-werner">>
     <!    <img src="/images/rss.png" alt="Subscribe to RSS Feed" />>
     <!  </a>>
-    </div>
+    <!</div>>
   </div>
 </div>
 
@@ -66,7 +66,17 @@ var WRInitTime=(new Date()).getTime();
 <!-- ClickTale end of Bottom part -->
 
 <!-- Google Analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-4155555-8']);
+	  _gaq.push(['_trackPageview']);
 
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
 <!-- Google Analytics end -->
 
 </body>
