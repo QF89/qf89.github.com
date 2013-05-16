@@ -31,7 +31,7 @@ var WRInitTime=(new Date()).getTime();
 
 <div class="site">
   <div class="title">
-    <!<a href="/">QF89</a>>
+    <!-- <a href="/">个人介绍</a> -->
     <a class="extra" href="/">Blog Archive</a>
   </div>
   
@@ -51,12 +51,12 @@ var WRInitTime=(new Date()).getTime();
         <a href="http://www.nju.edu.cn/">南京大学</a><br />
         <a href="http://bbs.nju.edu.cn">小百合论坛</a>
       </p>
-    <!</div>>
-    <!<div class="rss">>
-    <!  <a href="http://feeds.feedburner.com/tom-preston-werner">>
-    <!    <img src="/images/rss.png" alt="Subscribe to RSS Feed" />>
-    <!  </a>>
-    <!</div>>
+    <!-- </div> -->
+    <!-- <div class="rss"> -->
+    <!--  <a href="http://feeds.feedburner.com/tom-preston-werner"> -->
+    <!--  <img src="/images/rss.png" alt="Subscribe to RSS Feed" /> -->
+    <!--  </a> -->
+    <!--  </div> -->
   </div>
 </div>
 
