@@ -5,28 +5,34 @@ title: "Introduction to Recursion"
 
 ###1. Definition:
    any function that calls itself (directly or indirectly) is recursive. 
-   
-###2. Understanding Recursion
+      
+      
+###2. Understanding Recursion    
+
 ####2.1 When to use
 usually for tasks that can be defined in terms of similar subtasks.  
 
 A good hint that a problem is recursive is that it appears to be built off sub-problems  
 
 For example:  traversal problems often have recursive solutions  
-
+    
+    
 ####2.2 Two cases of recursion
 * base case: the function stop recurse.
 * recursive case: the function calls itself to perform a subtask.  
  
 #####note:   
 if a recursion function does never reach it's base case,it recurses infinite.eventually this will lead to stack overflow.and the program crashes.
-  
+      
+   
 ####2.3 Recursion vs Iteration
 first of all,any problem can be solved recursely can also be solved iterately.  
   
 * recursion solution is simpler to understand and often need less code than iteration.
 * iteration is more efficient.due to recursion solution has large overhead for function calls.
-  
+      
+   
+
 ###3. example 
 ####3.1 Question: return all subsets of a set
 
