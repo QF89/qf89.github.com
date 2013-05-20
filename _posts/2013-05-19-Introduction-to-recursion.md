@@ -21,8 +21,8 @@ For example:  traversal problems often have recursive solutions
 * base case: the function stop recurse.
 * recursive case: the function calls itself to perform a subtask.  
  
-#####note:   
-If a recursion function does never reach it's base case,it recurses infinite.eventually this will lead to stack overflow.and the program crashes.
+#####Note:   
+If a recursion function does never reach it's base case,it will recurse infinite. lead to stack overflow.eventually the program crashes.
       
    
 ####2.3 Recursion vs Iteration
@@ -37,7 +37,7 @@ First of all,any problem can be solved recursely can also be solved iterately.
 ####3.1 Question: return all subsets of a set
 
 ######Thinking :
-Divide the big set into two parts, set = first item + smallset.if we can get all subsets of smallset.then we can easily get all subsets.so we can use recursion to solve the problem.  
+Divide the big set into two parts, set = first item + smallset.if we can get all subsets of the smallset.then we can easily get all subsets.so we can use recursion to solve the problem.  
                                                  
 
 ######Coding:
@@ -61,7 +61,7 @@ Divide the big set into two parts, set = first item + smallset.if we can get all
                 vector< Type >::iterator ite1;
                 vector< vector< Type > >::iterator ite2;
                 
-                for( ite2 = presubsets.begin(); ite2 != presubsets.end(); ite2++ ) {
+                for( ite2 = presubsets.begin(); ite2 != presubsets.end(); ite2++ ){
                     ite1 = ite2 -> begin();
                     ite2 ->insert( ite1, item );
                 }
